@@ -42,6 +42,9 @@ When __deploy.php__ is called by the web-hook, the webserver user (`www`, `www-d
 3. run `sudo chmod -R g+s custom-project-repo-dir/` to make the group assignment inherited for new files/dirs.
 4. run `sudo chmod -R 775 custom-project-repo-dir/` to set read & write for both owner and group.
 
+sudo chown -R www-data:www-data /var/www/html/project
+https://github.com/markomarkovic/simple-php-git-deploy/issues/65
+
 ---
 
 ## On GitHub | GitLab | Bitbucket
